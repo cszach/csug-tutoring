@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class Penguin {
-  public static String FAMILY = "Spheniscidae";
+  public static final String FAMILY = "Spheniscidae";
   public static enum Gender {MALE, FEMALE};
   private String name;
   private Gender gender;
@@ -19,12 +19,28 @@ class Penguin {
     this.children = new ArrayList<Penguin>(0);
   }
 
+  String getName() {
+    return this.name;
+  }
+
   void setName(String name) {
     this.name = name;
   }
 
-  int age() {
-    return ++this.age;
+  int getAge() {
+    return this.age;
+  }
+
+  void setAge() {
+    ++this.age;
+  }
+
+  void say(String something) {
+    System.out.println(something);
+  }
+
+  void greet() {
+    this.say("Hello, I'm " + this.name);
   }
 
   Penguin makeFriend(Penguin newFriend) {
