@@ -1,1 +1,8 @@
+# Jekyll
+
+/bundle
+/_site
+
+# Java
+
 *.class

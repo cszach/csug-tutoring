@@ -1,1 +1,14 @@
+title: tutoring
 theme: jekyll-theme-cayman
+
+tagline: Zach's tutoring to the rescue!
+description: Zach's CSUG tutoring materials.
+author:
+  name: Zach
+  email: duong.nguyen@rochester.edu
+
+plugins:
+  - jekyll-seo-tag
+  - jemoji
+
+exclude: [bundle,Gemfile,Gemfile.lock]
