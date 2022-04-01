@@ -3,7 +3,28 @@
 
 > Example variables are named `foo` and `bar`.
 
-Types and variables
+Table of Content
+----------------
+
+<!-- vim-markdown-toc GFM -->
+
+* [Types and Variables](#types-and-variables)
+* [Arithmetic](#arithmetic)
+* [Control/Branch](#controlbranch)
+  * [If statement](#if-statement)
+  * [If/else statement](#ifelse-statement)
+  * [If/else if statement](#ifelse-if-statement)
+  * [Switch](#switch)
+  * [Ternary operator](#ternary-operator)
+* [Loop](#loop)
+  * [While loop](#while-loop)
+  * [For loop](#for-loop)
+  * [Special for loop](#special-for-loop)
+  * [Do/while loop](#dowhile-loop)
+
+<!-- vim-markdown-toc -->
+
+Types and Variables
 -------------------
 
 - **`int`**: Integers (−2, −1, 0, 1, 2,…).
@@ -137,9 +158,6 @@ int bar;
 bar = (condition) ? value1 : value2;
 ```
 
-> A condition is any statement that returns a `boolean`. This could be a
-> comparison (e.g. `foo >= bar`) or a method call that returns a `boolean`
-> (`foo.isWhatever()`).
 
 Loop
 ----
